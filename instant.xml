@@ -3,15 +3,14 @@
   <LocationUI clock-mode="Timecode"/>
   <LastUsedSnapshot name="Ofenroehr"/>
   <Main x="0" y="0" w="1920" h="1080" current-tab="editor"/>
-  <Editor id="41" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="35762" grid-type="GridTypeBar" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapOff" pre-internal-grid-type="GridTypeBar" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" draw-length="GridTypeNone" draw-velocity="-1" draw-channel="-1" playhead="45234449" left-frame="0" y-origin="150" maximised="1" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="1" show-editor-mixer="0" show-editor-list="0" editor-list-page="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
+  <Editor id="41" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusPlayhead" zoom="35579" grid-type="GridTypeBar" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapOff" pre-internal-grid-type="GridTypeBar" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" marker-click-behavior="MarkerClickSelectOnly" draw-length="GridTypeNone" draw-velocity="-1" draw-channel="-1" playhead="56691057" left-frame="0" y-origin="0" maximised="1" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="1" show-editor-mixer="0" show-editor-list="0" editor-list-page="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="a1411200000@a0">
     <Window name="Editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" tabbed="1"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <ControlPoint type="track" route-id="64530" automation-list-id="64533" parameter="gain" view-index="3"/>
-      <Marker id="1934618" start="0"/>
+      <StripableView id="64530"/>
     </Selection>
     <EditorLocations clock-mode="BBT"/>
   </Editor>
@@ -35,13 +34,13 @@
     <Clock name="secondary" mode="Timecode" on="1"/>
     <Clock name="bigclock" mode="Timecode" on="1"/>
     <Clock name="nudge" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-start" mode="Timecode" on="0"/>
     <Clock name="EditorTimeInfo-punch-end" mode="Timecode" on="0"/>
-    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="1"/>
-    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="1"/>
+    <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+    <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
   </ClockModes>
 </instant>
